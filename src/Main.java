@@ -53,7 +53,7 @@ public class Main {
         int cpdTimeWork3 = cpdOneMinutes * timeWork3;
         System.out.println("За " + timeWork3 + " минут, машина произвела бутылок - " + cpdTimeWork3 + " штук");
         int cpdTimeWork4 = cpdOneMinutes * timeWork4;
-        System.out.println("За " + timeWork3 + " минут, машина произвела бутылок - " + cpdTimeWork4 + " штук");
+        System.out.println("За " + timeWork4 + " минут, машина произвела бутылок - " + cpdTimeWork4 + " штук");
 
         //Задание №5
         System.out.println("Задание №5");
