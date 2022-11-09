@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         //Задание №1
+        System.out.println("Задание №1");
         int mercury = 1;
         byte venus = 2;
         short earth = 3;
-        long mars = 4;
-        float jupiter = 5;
-        double saturn = 6;
+        long mars = 400_000_000_123L;
+        float jupiter = 5.23456F;
+        double saturn = 6.025;
         System.out.println("Значение переменной " + "mercury" + " с типом " + "int" + " равно " + mercury);
         System.out.println("Значение переменной " + "venus" + " с типом " + "byte" + " равно " + venus);
         System.out.println("Значение переменной " + "earth" + " с типом " + "short" + " равно " + earth);
@@ -16,8 +16,10 @@ public class Main {
         System.out.println("Значение переменной " + "saturn" + " с типом " + "double" + " равно " + saturn);
 
         //Задание №2
+        System.out.println("Задание №2");
+        System.out.println("Задание без вывода решения на консоль");
         double ab = 27.12;
-        long  bc = 1212121212;//должно быть число 987678965549
+        long  bc = 987_678_965_549L;
         byte cd = 2;
         short de = 786;
         boolean ef = false;
@@ -27,6 +29,7 @@ public class Main {
         byte ig = 67;
 
         //Задание №3
+        System.out.println("Задание №3");
         byte studentLuidmmilaPavlovna = 23;
         byte studentAnnaSergeevna = 27;
         byte studentEkaterinaAndreevna = 30;
@@ -36,6 +39,7 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + papersForStudent + " листов бумаги");
 
         //Задание №4
+        System.out.println("Задание №4");
         byte cpdTwoMinutes = 16;
         int cpdOneMinutes = cpdTwoMinutes / 2;// узаем сколько производится бутылок в минуту
         byte timeWork1 = 20;
@@ -52,6 +56,7 @@ public class Main {
         System.out.println("За " + timeWork3 + " минут, машина произвела бутылок - " + cpdTimeWork4 + " штук");
 
         //Задание №5
+        System.out.println("Задание №5");
         byte totalPaint = 120;
         byte oneClassPaintWhite = 4;
         byte oneClassPaintBrown = 2;
@@ -62,6 +67,24 @@ public class Main {
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalPaintWhite + " банок белой краски и " +totalPaintBrown + " банок коричневой краски");
 
         //Задание №6
+        System.out.println("Задание №6");
+        byte weightBanana = 80;
+        byte banana = 5;
+        byte weightMilk = 105;
+        byte milk = 2;
+        byte weightIceCream = 100;
+        byte iceCream = 2;
+        byte weightEgg = 70;
+        byte egg = 4;
+        int totalWeightBreakfаstG = weightBanana * banana + weightMilk * milk + weightIceCream * iceCream + weightEgg * egg;// вес в граммах
+        float totalWeightBreakFastKg = totalWeightBreakfаstG / 1000F;
+        System.out.println("Общий вес спортивного завтрака составляет " + totalWeightBreakfаstG + "грамм, или " + totalWeightBreakFastKg + " килограмм");
+
+        //Задание №7
+        System.out.println("Задание №7");
+
+
+
 
 
 
