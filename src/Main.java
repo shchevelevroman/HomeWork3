@@ -82,6 +82,39 @@ public class Main {
 
         //Задание №7
         System.out.println("Задание №7");
+        byte weightTotalLoseKg = 7;// в килограммах
+        int weightTotalLoseG = weightTotalLoseKg * 1000;
+        short weightLose1 = 250;
+        short weightLose2 = 500;
+        int dayWeightLose1 = weightTotalLoseG / weightLose1;
+        int dayWeightLose2 = weightTotalLoseG / weightLose2;
+        System.out.println("Если спортсмен будет худеть на " + weightLose1 + " грамм ежедневно, то ему понадобиться " + dayWeightLose1 + " дней для подготовки к соревнованиям");
+        System.out.println("Если спортсмен будет худеть на " + weightLose2 + " грамм ежедневно, то ему понадобиться " + dayWeightLose2 + " дней для подготовки к соревнованиям");
+
+        //Задание №8
+        System.out.println("Задание №8");
+        int salaryMaria = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        double weigntSalaryMaria = salaryMaria * 0.1;
+        double weigntSalaryDenis = salaryDenis * 0.1;
+        double weigntSalaryKristina = salaryKristina * 0.1;
+        double totalSalaryMaria = salaryMaria + weigntSalaryMaria;
+        double totalSalaryDenis = salaryDenis + weigntSalaryDenis;
+        double totalSalaryKristina= salaryKristina + weigntSalaryKristina;
+        System.out.println("Маша теперь получает " +  totalSalaryMaria+ " рублей. Годовой доход вырос на " + weigntSalaryMaria * 12 + " рублей");
+        System.out.println("Денис теперь получает " +  totalSalaryDenis + " рублей. Годовой доход вырос на " + weigntSalaryDenis * 12 + " рублей");
+        System.out.println("Кристина теперь получает " +  totalSalaryKristina + " рублей. Годовой доход вырос на " + weigntSalaryKristina * 12 + " рублей");
+
+
+
+
+
+
+
+
+
+
 
 
 
