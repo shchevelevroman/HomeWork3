@@ -18,15 +18,15 @@ public class Main {
         //Задание №2
         System.out.println("Задание №2");
         System.out.println("Задание без вывода решения на консоль");
-        double ab = 27.12;
-        long  bc = 987_678_965_549L;
-        byte cd = 2;
-        short de = 786;
-        boolean ef = false;
-        short fj = 569;
-        short jh = -159;
-        short hi = 27697;
-        byte ig = 67;
+        double alpha = 27.12;
+        long  beta = 987_678_965_549L;
+        byte gamma = 2;
+        short delta = 786;
+        boolean dzeta = false;
+        short omega = 569;
+        short pi = -159;
+        short ro = 27697;
+        byte sigma = 67;
 
         //Задание №3
         System.out.println("Задание №3");
